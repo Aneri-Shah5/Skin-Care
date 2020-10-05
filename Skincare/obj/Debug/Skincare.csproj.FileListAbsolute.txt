@@ -1,0 +1,5 @@
+E:\java\Skincare\Skincare\bin\Skincare.dll
+E:\java\Skincare\Skincare\bin\Skincare.pdb
+E:\java\Skincare\Skincare\obj\Debug\Skincare.dll
+E:\java\Skincare\Skincare\obj\Debug\Skincare.pdb
+E:\java\Skincare\Skincare\obj\Debug\Skincare.csprojResolveAssemblyReference.cache

@@ -1,0 +1,24 @@
+﻿button 
+{
+    
+	background-color:#ededed;
+	border-radius:28px;
+	border:1px solid #faf5fa;
+	display:inline-block;
+	cursor:pointer;
+	color:#ba87c7;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e7e8f5;
+}
+button:hover {
+	background-color:#f7f7f7;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+}

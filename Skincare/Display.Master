@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Display.master.cs" Inherits="Skincare.Display" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<h1 align="left" style="font-family: 'Kunstler Script'; font-size: 45pt;">Skin Care</h1>
+    <form id="form1" runat="server">
+    <table width=100%  >
+    
+    <tr align="center" height=40px style="background-color:#e4d0f2;"><td>
+        <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="Black" Font-Size="X-Large"
+            NavigateUrl="~/Home.aspx">Home</asp:HyperLink>
+        </td><td>
+        <asp:HyperLink ID="HyperLink4" runat="server" ForeColor="Black" Font-Size="X-Large"
+            NavigateUrl="~/products.aspx">Products</asp:HyperLink>
+        </td><td>
+        <asp:HyperLink ID="HyperLink5" runat="server" ForeColor="Black" Font-Size="X-Large"
+            NavigateUrl="~/customizeaspx.aspx"> Customize Your Kit</asp:HyperLink>
+        </td><td>
+        <asp:HyperLink ID="HyperLink6" runat="server" ForeColor="Black" Font-Size="X-Large"
+            NavigateUrl="~/myorder.aspx">My Order</asp:HyperLink>
+        </td><td>
+        <asp:HyperLink ID="HyperLink7" runat="server" ForeColor="Black" Font-Size="X-Large"
+            NavigateUrl="~/Login.aspx">Logout</asp:HyperLink>
+        </td></tr>
+    <tr><td colspan=5>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </td></tr>
+    </table>
+    
+    </form>
+</body>
+</html>

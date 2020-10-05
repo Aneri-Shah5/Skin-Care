@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Register.master.cs" Inherits="Skincare.Register" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+     
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+   <table width=100% position="fixed" style="height: 253px">
+   <tr><td align="center"> 
+       <h1  style="width: 379px; color: #000000; background-color: #FFFFFF; font-style: normal; font-family: 'Kunstler Script'; font-size: 45pt;">
+Skin Care</h1></td></tr>
+   <tr><td>
+       <div style="margin: 0px;  background-position: center;
+ background-image: url('/photos/wide-many-skin-care-products.jpg'); height: 548px; background-repeat: no-repeat;">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+    </asp:ContentPlaceHolder></div></td></tr>
+  
+   </table>
+        
+    
+
+        
+    
+</body>
+</html>
